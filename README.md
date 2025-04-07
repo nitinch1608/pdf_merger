@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📄 PDF Merger (Next.js App)
 
-## Getting Started
+Hey there! 👋  
+This is a simple PDF merging website built using [Next.js](https://nextjs.org). I’ve just started working on it, so things are pretty basic right now — but the plan is to make it much more powerful over time.
 
-First, run the development server:
+## What it does (so far)
+
+Right now, it can:
+
+- ✅ Merge **two** PDF files into one
+
+That’s it for now! But I’m working on adding more features soon — like merging more than two files, rearranging pages, splitting PDFs, and all the good stuff you'd expect from a proper PDF tool.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) – framework for the frontend and backend
+- [React](https://reactjs.org) – for the UI stuff
+- [PDF-Merger-JS](https://www.npmjs.com/package/pdf-merger-js) – to handle the actual PDF merging
+
+## In Progress / Coming Soon
+
+- [ ] Upload more than two files
+- [ ] Drag & drop interface
+- [ ] Rearrange PDF pages
+- [ ] Split PDF files
+- [ ] Compress PDFs
+- [ ] Convert between PDF & other formats (Word, Excel, etc.)
+
+## 🔧 How to run it locally
+
+If you want to check it out or test it:
 
 ```bash
+git clone https://github.com/your-username/pdf-merger-app.git
+cd pdf-merger-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then go to [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Future Plans
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is still in its early stages. The idea is to build something that works well, looks clean, and runs fast — kind of like a free alternative to the big PDF tools out there.
